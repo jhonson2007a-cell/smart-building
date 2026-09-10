@@ -1,0 +1,43 @@
+# 📁 Project Structure
+
+```text
+AI-Zonal-Energy-Manager/
+│
+├── backend/
+│   ├── main.py
+│   ├── mqtt_client.py
+│   ├── occupancy.py
+│   ├── energy_manager.py
+│   ├── prediction.py
+│   ├── database.py
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── dashboard/
+│   ├── package.json
+│   └── README.md
+│
+├── esp32/
+│   ├── energy_node.ino
+│   └── config.h
+│
+├── ai/
+│   ├── occupancy_detection.py
+│   └── models/
+│
+├── data/
+│   ├── occupancy_data.csv
+│   └── energy_data.csv
+│
+├── docs/
+│   ├── architecture.png
+│   └── system-flow.png
+│
+├── .gitignore
+├── LICENSE
+└── README.md
+```
+
+---
